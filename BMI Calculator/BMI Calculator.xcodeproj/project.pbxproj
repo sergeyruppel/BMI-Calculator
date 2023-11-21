@@ -13,6 +13,7 @@
 		3A8289652B024D17007C9E26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8289632B024D17007C9E26 /* Main.storyboard */; };
 		3A8289672B024D18007C9E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8289662B024D18007C9E26 /* Assets.xcassets */; };
 		3A82896A2B024D18007C9E26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8289682B024D18007C9E26 /* LaunchScreen.storyboard */; };
+		3ABCE89D2B0CF24C00C1CEB3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABCE89C2B0CF24C00C1CEB3 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3A8289662B024D18007C9E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8289692B024D18007C9E26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A82896B2B024D18007C9E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABCE89C2B0CF24C00C1CEB3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,38 @@
 			children = (
 				3A82895D2B024D17007C9E26 /* AppDelegate.swift */,
 				3A82895F2B024D17007C9E26 /* SceneDelegate.swift */,
-				3A8289612B024D17007C9E26 /* MainController.swift */,
-				3A8289632B024D17007C9E26 /* Main.storyboard */,
+				3ABCE8A02B0CF30200C1CEB3 /* Models */,
+				3ABCE89E2B0CF2C900C1CEB3 /* Views */,
+				3ABCE89F2B0CF2DF00C1CEB3 /* Controllers */,
 				3A8289662B024D18007C9E26 /* Assets.xcassets */,
-				3A8289682B024D18007C9E26 /* LaunchScreen.storyboard */,
 				3A82896B2B024D18007C9E26 /* Info.plist */,
 			);
 			path = "BMI Calculator";
+			sourceTree = "<group>";
+		};
+		3ABCE89E2B0CF2C900C1CEB3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A8289632B024D17007C9E26 /* Main.storyboard */,
+				3A8289682B024D18007C9E26 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3ABCE89F2B0CF2DF00C1CEB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3ABCE89C2B0CF24C00C1CEB3 /* ResultViewController.swift */,
+				3A8289612B024D17007C9E26 /* MainController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3ABCE8A02B0CF30200C1CEB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				3A8289622B024D17007C9E26 /* MainController.swift in Sources */,
 				3A82895E2B024D17007C9E26 /* AppDelegate.swift in Sources */,
 				3A8289602B024D17007C9E26 /* SceneDelegate.swift in Sources */,
+				3ABCE89D2B0CF24C00C1CEB3 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
